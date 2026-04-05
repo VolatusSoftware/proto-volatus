@@ -7,6 +7,7 @@ enum ConnectStatus {
     STATUS_BAD_CONFIG  = 3;
     STATUS_BAD_SYSTEM  = 4;
     STATUS_BAD_CLUSTER = 5;
+    STATUS_NOT_ALLOWED = 6;
 }
 
 message TcpServerHello {
